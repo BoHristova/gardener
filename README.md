@@ -51,11 +51,11 @@ Continuous conformance test results of the latest stable Gardener release are up
 
 Get an overview of the test results at [testgrid](https://testgrid.k8s.io/conformance-gardener).
 
-## Start using or developing the Gardener locally
+## Start Using or Developing Gardener Locally
 
 See our documentation in the `/docs` repository, please [find the index here](docs/README.md).
 
-## Setting up your own Gardener landscape
+## Set Up Your Own Gardener Landscape
 
 Bootstrapping and maintaining a Gardener landscape has never been easier. Check out our [Gardener landscape setup guide](docs/deployment/setup_gardener.md) to learn about the operator and other key concepts.
 
