@@ -1,4 +1,8 @@
-# Overview
+# Local Setup
+
+This guide walks you through setting up a local Gardener development environment on your machine.
+
+## Overview
 
 Conceptually, all Gardener components are designed to run as a Pod inside a Kubernetes cluster.
 The Gardener API server extends the Kubernetes API via the user-aggregated API server concepts.
