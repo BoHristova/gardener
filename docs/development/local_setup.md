@@ -219,6 +219,6 @@ git clone git@github.com:gardener/gardener.git
 cd gardener
 ```
 
-## Start the Gardener
+## Next Steps
 
-Please see [getting_started_locally.md](../deployment/getting_started_locally.md) how to build and deploy Gardener from your local sources.
+To build and deploy Gardener from your local sources, follow the [Deploying Gardener Locally](../deployment/getting_started_locally.md) guide.
