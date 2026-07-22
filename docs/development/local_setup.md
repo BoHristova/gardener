@@ -190,7 +190,11 @@ The Gardener repository and all the above-mentioned tools (git, golang, kubectl,
 
 ### WSL local garden troubleshooting
 From time to time, you might be confronted with the following error:
-> E0716 16:56:04.437868  179692 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"https://127.0.0.1:<some port>/api?timeout=32s\": dial tcp 127.0.0.1:<some port>: i/o timeout"
+
+```
+E0716 16:56:04.437868  179692 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"https://127.0.0.1:<some port>/api?timeout=32s\": dial tcp 127.0.0.1:<some port>: i/o timeout"
+```
+
 This is because the WSL forwarding tables periodically break.
 
 To fix, refresh the portproxy in windows powershell:
