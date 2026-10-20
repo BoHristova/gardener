@@ -266,7 +266,7 @@ status:
 ### Host-specific OS Configurations
 
 Usually, the same configuration is applied to all nodes of a worker pool.
-However, there are cases, most notably the control plane worker pool of [self-hosted shoot clusters](../../proposals/28-self-hosted-shoot-clusters.md), where you need to apply slightly different configurations to different nodes of the same worker pool.
+However, there are cases, most notably the control plane worker pool of [self-hosted shoot clusters](https://github.com/gardener/enhancements/tree/main/geps/0028-self-hosted-shoot-clusters), where you need to apply slightly different configurations to different nodes of the same worker pool.
 The `OperatingSystemConfig` resource allows you to achieve this by setting the `.spec.files[].hostName` or `.status.extensionFiles[].hostName` to the corresponding name of the host.
 
 ```yaml
